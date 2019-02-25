@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    title Snow Form
+  body
+    h1 Snow Form
+    form(method='post', action='/addname')
+      label Where are you?
+      br
+      input(type='text', name='Location', placeholder='Enter your city name...', required='')
+      |  
+      input(type='submit', value='submit location')
+      br
+      label What day are you recording for?
+      br
+      input(type='Date', name='Date', placeholder='Enter last name...', required='')
+      |  
+      input(type='submit', value='submit date')
